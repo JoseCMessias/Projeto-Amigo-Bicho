@@ -219,12 +219,9 @@ p {
 }
 
 .card2 img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(146, 142, 142, 0.5);
+  border-radius: 5px;
 }
 
 .depoimento-super {
