@@ -48,8 +48,6 @@ nav {
   display: flex;
   flex: 1 1 100vw;
   justify-content: center;
-  background-color: #54b19d;
-  padding: 10px;
 }
 
 .navegador_lista {
