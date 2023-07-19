@@ -94,7 +94,7 @@ nav {
 @media (max-width: 768px) {
 
   footer{
-    margin-buttom: 200px;
+    margin-buttom: 50%;
   }
   
   .icones_acesso {
@@ -129,6 +129,7 @@ main {
   height: 100%;
   width: 100%;
   height: auto;
+  margin-top: 50%;
 }
 
 .imagem-centro img {
@@ -190,10 +191,6 @@ footer {
 
 /* configuraçao do rodapé para telas menores */
 @media (max-width: 768px) {
-
-  footer{
-    margin-top: 200px;
-  }
   
   .rodape_principal a {
     font-size: 12px;
