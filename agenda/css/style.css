@@ -48,6 +48,8 @@ nav {
   display: flex;
   flex: 1 1 100vw;
   justify-content: center;
+  background-color: #54b19d;
+  padding: 10px;
 }
 
 .navegador_lista {
@@ -148,11 +150,12 @@ main {
 
 
 footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  background-color: #e3ebe8;
+  display: flex;
+  flex: 1 1 100vw;
+  justify-content: center;
   background-color: #54b19d;
-  padding: 20px;
+  padding: 10px;
 }
 
 .rodape_principal {
