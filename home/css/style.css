@@ -51,7 +51,6 @@ header {
   text-decoration: none;
 }
 
-
 @media (max-height: 768px) {
   #logo-botao button {
     max-width: 40%;
@@ -186,7 +185,6 @@ p {
 .card img {
   padding: 50px 20px 20px 20px;
   width: 190px;
-  
 }
 
 .card-body h5 {
@@ -217,7 +215,7 @@ p {
 }
 
 .card2 img {
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(146, 142, 142, 0.5);
 }
 
@@ -276,8 +274,6 @@ p {
   .card2 img {
     max-width: 90%;
     border-radius: 5px;
-    
-    
   }
 
   .card2 {
@@ -285,7 +281,6 @@ p {
     justify-content: center;
     align-items: center;
   }
-
 }
 
 /* --- ASIDE --- */
