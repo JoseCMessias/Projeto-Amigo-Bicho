@@ -48,6 +48,7 @@ nav {
   display: flex;
   flex: 1 1 100vw;
   justify-content: center;
+   margin-buttom: 50%;
 }
 
 .navegador_lista {
@@ -156,6 +157,7 @@ footer {
   width: 100%;
   background-color: #54b19d;
   padding: 20px;
+  margin-top: 50%;
 }
 
 .rodape_principal {
@@ -191,7 +193,10 @@ footer {
 
 /* configuraçao do rodapé para telas menores */
 @media (max-width: 768px) {
-  
+
+  footer{
+    margin-top: 50%;
+  }
   .rodape_principal a {
     font-size: 12px;
   }
