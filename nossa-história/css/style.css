@@ -265,6 +265,11 @@ main {
 .card {
   margin: 25px;
   align-items: center;
+  box-shadow: 0 2px 4px rgba(146, 142, 142, 0.5);
+}
+
+.card img {
+  margin-bottom: 20px;
 }
 
 .card-body h5 {
