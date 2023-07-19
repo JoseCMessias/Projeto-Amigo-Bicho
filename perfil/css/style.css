@@ -53,7 +53,7 @@
     display: flex;
     flex: 1 1 100vw;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
   }
   
   .navegador_lista {
@@ -104,6 +104,11 @@
 
 /* configuracao do nav (icones) para telas menores:  */
 @media (max-width: 768px) {
+
+  footer{
+    margin-bottom: 200px;
+  }
+
   .icones_acesso {
     width: 17px;
   }
@@ -294,7 +299,7 @@ footer {
     width: 100%;
     background-color: #54b19d;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 200px;
   }
   
   .rodape_principal {
@@ -330,6 +335,11 @@ footer {
   
     /* configuraçao do rodapé para telas menores */
     @media (max-width: 600px) {
+
+      footer{
+        margin-top: 200px;
+      }
+        
       .rodape_principal a {
         font-size: 12px;
     

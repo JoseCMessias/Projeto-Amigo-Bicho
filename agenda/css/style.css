@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex: 1 1 100vw;
-  background-color: #99c5bb;
+  background-color: #a8f1e0ce;
 }
 
 header {
@@ -92,6 +92,7 @@ nav {
 
 /* configuracao do nav (icones) para telas menores:  */
 @media (max-width: 768px) {
+  
   .icones_acesso {
     width: 17px;
   }
@@ -124,6 +125,8 @@ main {
   height: 100%;
   width: 100%;
   height: auto;
+  margin-top: 100px;
+  margin-buttom: 100px;
 }
 
 .imagem-centro img {
@@ -145,7 +148,7 @@ main {
 
 
 footer {
-  left: 0;
+   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #54b19d;
@@ -185,6 +188,7 @@ footer {
 
 /* configuraçao do rodapé para telas menores */
 @media (max-width: 768px) {
+
   .rodape_principal a {
     font-size: 12px;
   }
