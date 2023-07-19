@@ -93,10 +93,6 @@ nav {
 
 /* configuracao do nav (icones) para telas menores:  */
 @media (max-width: 768px) {
-
-  footer{
-    margin-buttom: 50%;
-  }
   
   .icones_acesso {
     width: 17px;
@@ -120,6 +116,8 @@ main {
   flex: 1 1 100vw;
   background: #a8f1e0ce;
   align-self: center;
+  margin-top:150px;
+  margin-buttom: 150px;
 }
 
 .imagem-centro {
@@ -130,7 +128,6 @@ main {
   height: 100%;
   width: 100%;
   height: auto;
-  margin-top: 50%;
 }
 
 .imagem-centro img {
