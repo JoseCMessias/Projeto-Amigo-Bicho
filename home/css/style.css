@@ -183,6 +183,8 @@ p {
 }
 
 .card img {
+  align-items: center;
+  align-content: center;
   padding: 50px 20px 20px 20px;
   width: 190px;
 }
