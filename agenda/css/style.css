@@ -92,6 +92,11 @@ nav {
 
 /* configuracao do nav (icones) para telas menores:  */
 @media (max-width: 768px) {
+
+  footer{
+    margin-buttom: 200px;
+  }
+  
   .icones_acesso {
     width: 17px;
   }
@@ -185,6 +190,11 @@ footer {
 
 /* configuraçao do rodapé para telas menores */
 @media (max-width: 768px) {
+
+  footer{
+    margin-top: 200px;
+  }
+  
   .rodape_principal a {
     font-size: 12px;
   }
