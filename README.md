@@ -85,7 +85,7 @@ As principais características do site são:
 
 ## Licença  &#9745;&#65039;
 
-- [Licença MIT]()
+- [Licença MIT](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/blob/main/LICENSE)
 
 ## Quer testar nosso site? basta clicar aqui! &#128105;&#8205;&#128187;
 
