@@ -1,10 +1,8 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B
-);
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B);
 @import url(https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap);
 
-
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -40,7 +38,7 @@ header {
 
 /* configuracao da logo no cabeçalho para telas menores:  */
 @media (max-width: 768px) {
-  #logo  img {
+  #logo img {
     width: 80%;
     margin: 10px;
   }
@@ -85,11 +83,10 @@ nav {
 }
 
 /* configuracao do nav para telas menores:  */
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .navegador_lista li {
     font-size: 12px;
   }
-
 }
 
 .icones_navegaçao {
@@ -111,22 +108,20 @@ nav {
   .icones_acesso {
     width: 17px;
   }
-  
 }
 
 .icones_navegaçao li {
   padding: 0px 15px 0px;
   display: inline-block;
-  
 }
 
 /* --- MAIN --- */
-main{
+main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   flex: 1 1 100vw;
-  background-color: #99C5BB;
+  background-color: #99c5bb;
 }
 
 #container {
@@ -134,11 +129,11 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
-#container a{
+#container a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,29 +141,27 @@ main{
   color: black;
 }
 
-
 .box {
-  background-color: #54B19D;
-  padding: 10px; 
-  border-radius: 20px; 
+  background-color: #54b19d;
+  padding: 10px;
+  border-radius: 20px;
   box-shadow: 5px 5px 8px rgba(255, 255, 255, 0.336);
   display: flex;
   align-items: center;
-  justify-content: center; 
-  margin: 10px; 
-  width: 90%; 
+  justify-content: center;
+  margin: 10px;
+  width: 90%;
 }
 
-
-.patinhas{
-display: flex;
-justify-content: center;
-margin: 10px;
+.patinhas {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
 
 .box img {
-  width: 20%; 
-  height: auto; 
+  width: 20%;
+  height: auto;
   margin-right: 10px;
   margin-left: 60px;
   border-radius: 50%;
@@ -176,7 +169,7 @@ margin: 10px;
 }
 
 .content {
-  flex-grow: 0.5; 
+  flex-grow: 0.5;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,7 +180,6 @@ margin: 10px;
   display: flex;
   justify-content: center;
   text-align: center;
-
 }
 
 .box .content p {
@@ -197,46 +189,42 @@ margin: 10px;
   white-space: pre-wrap;
 }
 
-#container .box .content h1{
-font-family: 'Nothing You Could Do', cursive;
-font-size: 50px;
+#container .box .content h1 {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 50px;
 }
 
-
-#container .box .content h2{
-  font-family: 'Corpse' sans-serif;
+#container .box .content h2 {
+  font-family: "Corpse" sans-serif;
   color: #fff;
   font-size: 15px;
 }
 
-
 /* configuraçao das div do catálogo para telas menores */
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .box {
     display: flex;
     flex-direction: column;
     margin: 15px;
     padding: 20px;
- 
   }
 
   .box img {
-  margin: 0;
-  align-items: center;
-  justify-items: center;
-  width: 40%; 
-  height: auto; 
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   }
 
-  #container .box .content h1{
-  font-family: 'Nothing You Could Do', cursive;
-  font-size: 32px;
-  padding: 10px;
-}
+  #container .box .content h1 {
+    font-family: "Nothing You Could Do", cursive;
+    font-size: 32px;
+    padding: 10px;
+  }
 
   #container .box .content h2 {
     font-size: 14px;
@@ -248,15 +236,14 @@ font-size: 50px;
   }
 }
 
-
 .marcador_pag h5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   padding-top: 15px;
   color: #1e1e1e;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .marcador_pag h5 {
     font-size: 12px;
   }
@@ -299,13 +286,12 @@ footer {
 }
 
 .rodape_esquerdo {
-  padding:10px;
+  padding: 10px;
   text-decoration: none;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 } /* Adicionei o espaçamento para os lados nas letras*/
-
 
 /* configuraçao do rodapé para telas menores */
 @media (max-width: 768px) {
@@ -313,7 +299,3 @@ footer {
     font-size: 12px;
   }
 }
-
-
-
-
