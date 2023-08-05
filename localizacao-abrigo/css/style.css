@@ -116,11 +116,12 @@ body {
   background-color: #e3ebe8ce;
   display: flex;
   flex-direction: column;
-  margin: 50px 100px;
   padding: 50px;
   border-radius: 10px;
   gap: 15px;
   box-shadow: 5px 5px 8px rgba(#fff, #979393, #666565, 0.336);
+  margin-top: 45%;
+  margin-bottom: 45%;
 }
 
 .mapa h1 {
@@ -139,7 +140,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 
 .mapa h2 {
   display: flex;
