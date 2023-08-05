@@ -100,7 +100,6 @@ nav {
   .navegador_lista li {
     font-size: 12px;
   }
-  
 }
 
 .icones_navegaçao li {
@@ -113,26 +112,23 @@ main {
   flex-direction: column;
   justify-content: center;
   flex: 1 1 100vw;
-  background: #a8f1e0ce;
   align-self: center;
+  margin-top: 30%;
+  margin-bottom: 30%;
 }
 
 .imagem-centro {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  height: 100%;
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+
 }
 
 .imagem-centro img {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
-
 
 /* configuração da imagem do calendario para telas menores */
 @media (max-width: 900px) {
