@@ -89,4 +89,4 @@ As principais características do site são:
 
 ## Quer testar nosso site? basta clicar aqui! &#128105;&#8205;&#128187;
 
-- [Link executável](https://josecmessias.github.io/Projeto-Amigo-Bicho/)
+- [Link executável](https://josecmessias.github.io/projeto-amigo-bicho/)
